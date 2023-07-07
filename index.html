@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SB UI Kit Pro</title>
+</head>
+<body>
+
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg py-3 fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">SB UI Kit Pro </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Landing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Documentation</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li> -->
+            
+        </ul>
+        <form class="d-flex" role="search">
+            <button class="btn btn-outline-success ms-5 bg-success text-white" type="submit">
+                Buy now
+                <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+        </form>
+    </div>
+    </div>
+</nav>
+<!-- end navbar -->
+<!-- start setting -->
+<section class="setting vh-100 position-absolute">
+    <div class="box-setting overflow-scroll mb-5">
+        <h6 class="text-secondary text-center py-3 shadow ">theme costomizer</h6>
+        <h6 class="text-secondary text-center py-3">Try a pre-built swatch!</h6>
+        <div class="box-color ">
+            <button class="btn btn-1">Default</button>
+            <button class="btn btn-2">Flat</button>
+            <button class="btn btn-3">Sunset</button>
+            <button class="btn btn-4">Subtle</button>
+            <button class="btn btn-5">Seafoam</button>
+        </div>
+        <h6 class="text-secondary text-center py-3 fst-italic">Or choose your own colors...</h6>
+        <div class="box-color ">
+            <button class="btn  bg-primary">primary</button>
+            <button class="btn  bg-secondary">secondary</button>
+            <button class="btn bg-success">success</button>
+            <button class="btn  bg-danger">danger</button>
+            <button class="btn  bg-warning">warning</button>
+            <button class="btn  bg-info mb-2">info</button>
+        </div>
+        <h6 class="text-secondary text-center py-3  fst-italic">Need ideas? Randomize!</h6>
+        <button class="btn-6 btn  mb-5 border border-1 mx-auto  d-flex align-items-baseline  mx-2">
+            Rondomize colors
+            <i class="fa-solid fa-shuffle ms-3"></i> 
+        </button>
+    </div>
+    <div class="icon">
+        <label for="sidebar">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <input type="checkbox" id="sidebar" hidden>
+    </div>
+</section>
+<!-- end setting -->
+<!-- start home section -->
+<section class="home vh-100" id="home">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6 col-sm-12">
+                <div class="home-content "  data-aos="fade-up">
+                    <h1 class="text-white" >Build your next project faster with SB UI Kit Pro</h1>
+                    <p class="">Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the development team at Start Bootstrap</p>
+                    <button class="btn  bg-success p-3 me-4">
+                        <a href="" class="text-white">Get Started</a>
+                        <i class="fa-solid fa-arrow-right ms-2 text-white"></i>
+                    </button>
+                    <a href="" class="text-white">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-lg-block d-md-none d-sm-none">
+                <div class="home-img "  data-aos="fade-up">
+                    <img src="imgs/home.svg" alt="home" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end home section -->
+
+<!-- start about -->
+<section class="about pt-5" id="about">
+    <!-- <svg 
+    class=""
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 1440 320">
+        <path 
+        fill="#3e25d1" 
+        fill-opacity="1" 
+        d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"    </svg>
+        </path>
+    </svg> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 text-center pt-5" style="width: 20rem;">
+                    <div class="card-body">
+                        <div class="icon mx-auto mb-3 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-layer-group fs-3 text-white"></i>
+                        </div>
+                        <h5 class="card-title">Built for developers</h5>
+                        <p class="card-text">Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 text-center pt-5" style="width: 20rem;">
+                    <div class="card-body">
+                        <div class="icon mx-auto mb-3 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-mobile fs-3 text-white"></i>
+                        </div>
+                        <h5 class="card-title">Modern responsive design</h5>
+                        <p class="card-text">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 text-center pt-5" style="width: 20rem;">
+                    <div class="card-body">
+                        <div class="icon mx-auto mb-3 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-laptop-code fs-3 text-white"></i>
+                        </div>
+                        <h5 class="card-title">Complete documentation</h5>
+                        <p class="card-text">All of the layouts, page sections, components, and utilities are fully covered in this products docs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f2f6fc" fill-opacity="1" d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+    </svg>
+</section>
+<!-- end about -->
+
+
+<!-- start portfolio -->
+<section class="portfolio pb-5" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 order-lg-1 order-md-2 order-sm-2">
+                <div class="portfolio-img" data-aos="fade-right">
+                    <img src="./imgs/landing-portfolio.png" 
+                    class="w-100 rounded-2 shadow-lg mt-5" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 order-lg-2  order-md-1 order-sm-1">
+                <div class="portfolio-content py-5" data-aos="fade-left">
+                    <h4>Here's What You Get</h4>
+                    <p class="text-muted fs-5 mb-5">When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</p>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="info mb-3">
+                                <h6>Landing Pages</h6>
+                                <p class="text-muted ">We've crafted landing page examples for many popular business and product types.</p>
+                                <div class="link">
+                                    <a href="">Learn More</a>
+                                    <i class="fa-solid fa-arrow-right ms-2 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="info mb-3">
+                                <h6>Page Examples</h6>
+                                <p class="text-muted ">Use our pre-built page examples to quickly create inner pages to your website.</p>
+                                <div class="link">
+                                    <a href="">Learn More</a>
+                                    <i class="fa-solid fa-arrow-right ms-2 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="info">
+                                <h6>Layouts</h6>
+                                <p class="text-muted ">Our flex box based layout options make your site beautifully responsive and adaptable to any device.</p>
+                                <div class="link">
+                                    <a href="">Learn More</a>
+                                    <i class="fa-solid fa-arrow-right ms-2 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="info ">
+                                <h6>Modular Sections</h6>
+                                <p class="text-muted ">All of the sections on each page are modular, so you can drop them into an existing page, or start with a new one!</p>
+                                <div class="link">
+                                    <a href="">Learn More</a>
+                                    <i class="fa-solid fa-arrow-right ms-2 text-primary"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end portfolio -->
+
+
+
+<!-- start pricing table -->
+<section class="pricing pt-5 " id="pricing">
+    <div class="container">
+        <div class="title text-center pt-5">
+            <h3> Pricing Table</h3>
+            <p class="text-muted fs-5 mb-5">Here's an example of a pricing table.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card py-5 px-2 border-0 shadow" data-aos="fade-up">
+                    <span class="rounded-4 btn bg-light mx-auto py-1 px-3">Free</span>
+                    <div class="dollar mx-auto fs-4 mb-3">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <span class="fs-1">0</span>
+                        <span>/mo</span>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>1 user</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Community support</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Style customizer</li>
+                            <li><i class="fa-regular fa-circle text-dark-emphasis me-2"></i>Custom components</li>
+                            <li><i class="fa-regular fa-circle text-dark-emphasis me-2"></i>Expanded utilities</li>
+                            <li><i class="fa-regular fa-circle text-dark-emphasis me-2"></i>Third-party integration</li>
+                            <li><i class="fa-regular fa-circle text-dark-emphasis me-2"></i>Layout options</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card py-5 px-2 border-0 shadow" data-aos="fade-up">
+                    <span class="rounded-4 btn bg-primary-subtle text-primary mx-auto py-1 px-3">Standard</span>
+                    <div class="dollar mx-auto fs-4 mb-3">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <span class="fs-1">19</span>
+                        <span>/mo</span>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>1 user</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Community support</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Style customizer</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Custom components</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Expanded utilities</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Third-party integration</li>
+                            <li><i class="fa-regular fa-circle-check me-2"></i>Layout options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card pargraph py-5 px-2  border-0 shadow" data-aos="fade-up">
+                    <span class="rounded-4 btn bg-light mx-auto py-1 px-3">Enterprise</span>
+                    <p class="text-muted text-center ">This is an example of the pricing table element that is included with this UI kit!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#212832" fill-opacity="1" d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+    </svg>
+</section>
+<!-- end pricing table -->
+
+
+
+<!-- start featuers -->
+<section class="features text-white py-5">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-6 col-sm-12">
+                <div class="item d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon mx-0  me-2 rounded-circle bg-success d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-question"></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5>What is SB UI Kit Pro?</h5>
+                        <p class="text-secondary">SB UI Kit Pro is a fully coded, responsive, Bootstrap based UI toolkit for developers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="item d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon me-2 rounded-circle bg-success d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-question"></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5>What can I build with SB UI Kit Pro?</h5>
+                        <p class="text-secondary">Build anything you want to using this UI kit! It is flexible, multipurpose, and full of tools for you to use during development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="item d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon me-2 rounded-circle bg-success d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-question"></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5>Do I get free updates?</h5>
+                        <p class="text-secondary">All of Start Bootstrap's premium products will come with updates for feature additions, bugfixes, and other small updates.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="item d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon me-2 rounded-circle bg-success d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-question "></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5>What frameworks does it integrate with?</h5>
+                        <p class="text-secondary">Our HTML based pro products are build with framework integration in mind. The compiled code is HTML and CSS, which is able to integrate with any framework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feat pt-5 text-center">
+            <span class="rounded-4 mb-3 btn bg-dark fs-6 text-secondary mx-auto py-1 px-3">Get Started</span>
+            <h3 class="mb-3">Save time with SB UI Kit Pro</h3>
+            <p class="mb-3 w-50 mx-auto text-secondary ">Start Bootstrap's premium UI Kit beautifully and intuitively extends the Bootstrap framework making it easy to build your next project!</p>
+            <button class="mx-auto btn btn-outline-success ms-5 bg-success ">
+                <a href="" class="text-white">Buy Now!</a>
+            </button>
+        </div>
+    </div>
+
+</section>
+<!-- end features -->
+
+
+<!-- start social -->
+<section class="social position-relative" id="social">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1" 
+        d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+    </path>
+    </svg>
+    <div class="container">
+        <div class="row py-5 pb-5">
+            <div class="col-lg-6 col-sm-12">
+                <div class="social-info before position-relative   py-5 " data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0">
+                    <div class="brand text-secondary text-uppercase ">
+                        google
+                    </div>
+                    <div class="qouate text-primary mb-3 fs-4 w-100">
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error vel omnis adipisci. Ad nam officiis sapiente dicta incidunt harum."
+                    </div>
+                    <h5 class="text-secondary fs-6">Adam Hall</h5>
+                    <p class="text-muted fs-6">Head of Engineering</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="social-info py-5" data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0">
+                    <div class="brand text-secondary text-uppercase ">
+                        instagram
+                    </div>
+                    <div class="qouate text-primary mb-3 fs-4 w-100">
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error vel omnis adipisci. Ad nam officiis sapiente dicta incidunt harum."
+                    </div>
+                    <h5 class="text-secondary fs-6">Lia Peterson</h5>
+                    <p class="text-muted fs-6">Technical Project Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end social -->
+
+<!-- start footer-3 -->
+<section class="footer-3 position-relative ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f2f6fc" fill-opacity="1" 
+        d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+    </path>
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class=" item p-3 border rounded-2 border-1 bg-white shadow  d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon my-auto  fs-3 me-3 rounded-circle bg-primary text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5 class="text-primary">What is SB UI Kit Pro?</h5>
+                        <p class="text-dark w-75">SB UI Kit Pro is a fully coded, responsive, Bootstrap based UI toolkit for developers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="item purpul  p-3 border rounded-2 border-1 bg-white shadow  d-flex justify-content-between align-items-start mb-3">
+                    <div class="icon  text-white fs-3 my-auto  me-3 rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-think-peaks"></i>
+                    </div>
+                    <div class="info w-100">
+                        <h5>What is SB UI Kit Pro?</h5>
+                        <p class="text- w-75">SB UI Kit Pro is a fully coded, responsive, Bootstrap based UI toolkit for developers.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-6 col-sm-12">
+                <div class="footer-info py-5 ">
+                    <h5>Ready to get started?</h5>
+                    <p>Get in touch or create an account.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 ">
+                <div class="footer-btns py-5 ms-auto">
+                    <button class="btn bg-success me-3">
+                        <a href="" class="text-white fs-5">contact-sales</a>
+                    </button>
+                    <button class="btn bg-success ">
+                        <a href="" class="text-white fs-5"> create account</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end footer-3 -->
+
+<!-- start footer-2 -->
+<section class="footer-2 py-5" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div class="contact">
+                    <h5>SB UI Kit Pro</h5>
+                    <p>Design made easy</p>
+                    <div class="mb-5">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="product">
+                            <h5>PRODUCT</h5>
+                            <ul>
+                                <li><a href="">Landing</a></li>
+                                <li><a href="">Pages</a></li>
+                                <li><a href="">Sections</a></li>
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Changelog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="technical">
+                            <h5>TECHNICAL</h5>
+                            <ul>
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Changelog</a></li>
+                                <li><a href="">Theme Customizer</a></li>
+                                <li><a href="">UI Kit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="includes">
+                            <h5>INCLUDES</h5>
+                            <ul>
+                                <li><a href="">Utilities</a></li>
+                                <li><a href="">Components</a></li>
+                                <li><a href="">Layouts</a></li>
+                                <li><a href="">Code Samples</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Affiliates</a></li>
+                                <li><a href="">Updates</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="legal">
+                            <h5>LEGAL</h5>
+                            <ul>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms and Conditions</a></li>
+                                <li><a href="">License</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-1  border-top border-1 mt-5 pt-4  d-flex align-items-center justify-content-between">
+                        <div class="copy">
+                            Copyright &copy; Your Website 2023
+                        </div>
+                        <div class="privecy">
+                            <a href="">Privacy Policy .</a>
+                            <a href="">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end footer-2 -->
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- svg up -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg> -->
+    <!--svg down -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" 
+        d="M0,128L120,149.3C240,171,480,213,720,218.7C960,224,1200,192,1320,176L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> -->
+</body>
+</html>
